@@ -19,6 +19,8 @@ body {
   font-size: 40px;
 }
 
+/*----------------table ----------------*/
+
 table{
   height: 91px;
   border: 1px;
@@ -35,10 +37,7 @@ tbody {
   width: 120px; 
 }
 
-
-td {
-  /* text-align: center; */
-}
+/*----------------table end ----------------*/
 
       
 p {
@@ -46,9 +45,7 @@ p {
   /* font-size: 36px; */
 }
 
-a {
-  /*font: 36px Consolas sans-serif; */
-}
+
 
 
 </style> <!-- <script src="../addons/p5.sound.js"></script> -->
@@ -57,6 +54,7 @@ a {
     <main>
       <center>
         <p id="title">401 防疫黑板</p>
+        <p>防疫課程 Day3</p>
         <p>5月 20日 (星期四) · 上午</p>
         <p>Google Meet 會議連結(每日更新)：</p>
         <a href="https://meet.google.com/rxs-sqwv-fye">https://meet.google.com/rxs-sqwv-fye</a>
@@ -86,6 +84,5 @@ a {
             作業繳交區</a> </p>
       </center>
     </main>
-    
   </body>
 </html>
