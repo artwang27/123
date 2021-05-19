@@ -19,6 +19,10 @@ body {
   font-size: 40px;
 }
 
+.meetTime{
+  font-size: 24px;
+}
+      
 .meetNote{
   font-size: 20px;
 }
@@ -61,8 +65,12 @@ p {
     <main>
       <center>
         <p id="title">401 防疫黑板</p>
-        <p>防疫課程 Day3</p>
-        <p>5月 20日 (星期四) · 上午</p>
+        <p>防疫課程 Day3</p><br/>
+        <div class="meetTime">
+        	<p>5月 20日 (星期四)</p>  
+          <p>上午...下午</p>
+        </div>
+        
         <div class="meetNote">
           <p>Google Meet 會議連結(每日更新)：</p>
           <a href="https://meet.google.com/rxs-sqwv-fye">https://meet.google.com/rxs-sqwv-fye</a>
@@ -84,7 +92,7 @@ p {
             </tr>
             <tr>
               <td>下午</td>
-              <td>請點我-> <a class="whiteFont" href="https://drive.google.com/file/d/1c9G3nx9iDHchHVdtZVeOw6CiCarxA51f/view">
+              <td>請點我-&gt; <a class="whiteFont" href="https://drive.google.com/file/d/1c9G3nx9iDHchHVdtZVeOw6CiCarxA51f/view">
                   音樂欣賞</a> </td>
             </tr>
           </tbody>
@@ -93,6 +101,5 @@ p {
             作業繳交區</a> </p>
       </center>
     </main>
-    
   </body>
 </html>
