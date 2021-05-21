@@ -26,6 +26,12 @@ body {
 .meetNote{
   font-size: 20px;
 }
+
+.linkNote a{
+  font-size: 24px;
+  color: blue;
+}
+      
       
 /*----------------table ----------------*/
 
@@ -53,10 +59,25 @@ p {
   /* font-size: 36px; */
 }
 
-.whiteFont{
+a{
+  color:white;
+}
+      
+.fontWhite{
   color: white;
 }
+      
+.fontBlue{
+   color: blue;
+}
 
+.fontGray{
+  color: #CCC;
+}
+
+.backBlue{
+  background-color: blue;
+}
 
 
 </style> <!-- <script src="../addons/p5.sound.js"></script> -->
@@ -65,14 +86,18 @@ p {
     <main>
       <center>
         <p id="title">401 防疫黑板</p>
-        <p>防疫課程 Day4</p>
+        <p class="fontBlue">防疫課程 Day5(星期六放假)<br>
+          防疫課程 Day6(星期日放假)<br>
+        </p>
+        <p> 防疫課程 Day7</p>
         <div class="meetTime">
-          <div>5月 21日 (星期五)</div>
+          <div>5月 24日 (星期一)</div>
           <div style="color: red;">上午...下午</div>
         </div>
         <div class="meetNote">
           <p>Google Meet 會議連結(每日更新)：</p>
-          <a href="https://meet.google.com/yhv-dazr-cif">https://meet.google.com/yhv-dazr-cif<br>
+        </div>
+        <div class="linkNote"> <a href="https://meet.google.com/grn-mrzh-yfa">https://meet.google.com/grn-mrzh-yfa<br>
           </a> </div>
         <p></p>
         <table>
@@ -91,25 +116,72 @@ p {
             </tr>
             <tr>
               <td>下午</td>
-              <td>請點我☞ <a class="whiteFont" href="https://www.youtube.com/watch?v=6ImYzOIcRY0">Follow
-                  Me 6 U4 voc and text</a></td>
+              <td>請點我☞ <a class="fontWhite" href="https://meet.google.com/qzr-wsro-ima">自
+                  然李老師線上直播</a> </td>
             </tr>
             <tr>
               <td>今日作業</td>
-              <td style="background-color:blue">數課 103，104<br>
-                數習 85，86，87<br>
+              <td class="normal"> <br>
               </td>
             </tr>
           </tbody>
         </table>
-        <p> <a href="https://drive.google.com/drive/folders/13hGtVPQoluVZIOJ6XlvBO3mKUl6oNIdk?usp=sharing">
-            作業繳交區</a></p>
+        <div class="linkNote">
+          <p> <a href="https://drive.google.com/drive/folders/13hGtVPQoluVZIOJ6XlvBO3mKUl6oNIdk?usp=sharing">
+              作業繳交區</a> </p>
+        </div>
+        <table>
+          <tbody>
+            <tr>
+              <td class="tableRow1"><br>
+              </td>
+              <td class="fontGray">音樂線上課程，，請自己安排時間自學 </td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
+              <td>音樂</td>
+              <td><br>
+              </td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td><a href="https://drive.google.com/file/d/1c9G3nx9iDHchHVdtZVeOw6CiCarxA51f/view">維
+                  也納森林的故事(一)</a></td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td><a href="https://drive.google.com/file/d/1D4kF4NDHhTjWto1_wStkmwTbj3We7VxG/view">維
+                  也納森林的故事(二)</a></td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td><a href="https://www.youtube.com/watch?v=-u1TrjzbtT8">古典魔力客介紹小
+                  約翰史特勞斯</a></td>
+            </tr>
+            <tr>
+              <td><br>
+              </td>
+              <td><a href="https://docs.google.com/forms/d/1gSk94NQlhA4DpS_rpxZPduY49dvtjpzPJuXvQKVd43c/edit">線
+                  上學習單</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <p><a href="https://drive.google.com/drive/folders/13hGtVPQoluVZIOJ6XlvBO3mKUl6oNIdk?usp=sharing"></a></p>
+        <br>
         <table>
           <tbody>
             <tr>
               <td><br>
               </td>
-              <td>未來線上課程，有空時可預先自學<br>
+              <td class="fontGray">英文線上課程，請自己安排時間自學<br>
               </td>
             </tr>
             <tr>
@@ -150,35 +222,27 @@ p {
             <tr>
               <td><br>
               </td>
-              <td><br>
-              </td>
-            </tr>
-            <tr>
-              <td>音樂</td>
-              <td><br>
+              <td><a href="https://www.youtube.com/watch?v=_q2PBGyYoSE">Things I
+                  do(did) during the pandemic</a><br>
               </td>
             </tr>
             <tr>
               <td><br>
               </td>
-              <td><a href="https://drive.google.com/file/d/1c9G3nx9iDHchHVdtZVeOw6CiCarxA51f/view">維
-                  也納森林的故事(一)</a>---已完成</td>
+              <td><a href="https://www.youtube.com/watch?v=mAWEAP5w8bQ">外師
+                  -Online grade 4</a><br>
+              </td>
             </tr>
             <tr>
               <td><br>
               </td>
-              <td><a href="https://drive.google.com/file/d/1D4kF4NDHhTjWto1_wStkmwTbj3We7VxG/view">維
-                  也納森林的故事(二)</a></td>
-            </tr>
-            <tr>
               <td><br>
               </td>
-              <td><a href="https://www.youtube.com/watch?v=-u1TrjzbtT8">古典魔力客介紹小
-                  約翰史特勞斯</a></td>
             </tr>
           </tbody>
         </table>
-        <p><a href="https://drive.google.com/drive/folders/13hGtVPQoluVZIOJ6XlvBO3mKUl6oNIdk?usp=sharing"></a>
+        <p><br>
+          <br>
         </p>
       </center>
     </main>
