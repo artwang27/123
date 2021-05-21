@@ -91,12 +91,13 @@ p {
             </tr>
             <tr>
               <td>下午</td>
-              <td>請點我☞ <a href="https://www.youtube.com/watch?v=6ImYzOIcRY0">Follow
+              <td>請點我☞ <a class="whiteFont" href="https://www.youtube.com/watch?v=6ImYzOIcRY0">Follow
                   Me 6 U4 voc and text</a></td>
             </tr>
             <tr>
               <td>今日作業</td>
-              <td><br>
+              <td>數課 103，104<br>
+                數習 85，86，87<br>
               </td>
             </tr>
           </tbody>
