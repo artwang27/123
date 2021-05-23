@@ -26,7 +26,8 @@ function setSpider(){
     spiderOn = true;
     myBody.style.backgroundImage = "url('spiderNet.jpg')";
     myBody.style.backgroundRepeat ="no-repeat";
-    myBody.style.backgroundSize="cover";
+    //myBody.style.backgroundSize="cover";
+    myBody.style.backgroundSize = "500px 600px";
     //alert("ok");
 }
 
