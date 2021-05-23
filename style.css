@@ -1,0 +1,83 @@
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: whitesmoke;
+  font-size: 30px;
+}
+
+/*
+.spider{
+    background-image: url("spiderNet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+#title {
+  background-color: #cc0000;
+  color: white;
+  font-size: 40px;
+}
+
+.meetTime{
+  font-size: 24px;
+}
+      
+.meetNote{
+  font-size: 20px;
+}
+
+.linkNote a{
+  font-size: 24px;
+  color: blue;
+}
+      
+      
+/*----------------table ----------------*/
+
+table{
+  height: 91px;
+  border: 1px;
+  font-size: 24px;
+  text-align: center;
+}
+
+tbody {
+  color: white;
+  background-color: #2F5496;
+}
+      
+.tableRow1{
+  width: 120px; 
+}
+
+/*----------------table end ----------------*/
+
+      
+p {
+  font-family: Consolas, sans-serif;
+  /* font-size: 36px; */
+}
+
+a{
+  color:white;
+}
+      
+.fontWhite{
+  color: white;
+}
+      
+.fontBlue{
+   color: blue;
+}
+
+.fontGray{
+  color: #CCC;
+}
+
+.backBlue{
+  background-color: blue;
+}
+
+
