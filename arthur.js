@@ -2,7 +2,7 @@ let spiderOn=true;
 
 const myBody = document.getElementById('myBody');
 
-window.onload = init;
+//window.onload = init;
 
 
 function init(){

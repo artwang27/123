@@ -5,90 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Arthur Wang">
     <title>台北市麗山國小401防疫黑板</title>
-    <style>
-body {
-  padding: 0px;
-  margin: 0px;
-  background-color: whitesmoke;
-  font-size: 30px;
-}
 
-#title {
-  background-color: #cc0000;
-  color: white;
-  font-size: 40px;
-}
-
-.meetTime{
-  font-size: 24px;
-}
-      
-.meetNote{
-  font-size: 20px;
-}
-
-.linkNote a{
-  font-size: 24px;
-  color: blue;
-}
-      
-      
-/*----------------table ----------------*/
-
-table{
-  height: 91px;
-  border: 1px;
-  font-size: 24px;
-  text-align: center;
-}
-
-tbody {
-  color: white;
-  background-color: #2F5496;
-}
-      
-.tableRow1{
-  width: 120px; 
-}
-
-/*----------------table end ----------------*/
-
-      
-p {
-  font-family: Consolas, sans-serif;
-  /* font-size: 36px; */
-}
-
-a{
-  color:white;
-}
-      
-.fontWhite{
-  color: white;
-}
-      
-.fontBlue{
-   color: blue;
-}
-
-.fontGray{
-  color: #CCC;
-}
-
-.backBlue{
-  background-color: blue;
-}
-
-
-</style> <!-- <script src="../addons/p5.sound.js"></script> -->
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body id="myBody" >
     <main>
       <center>
         <p id="title">401 防疫黑板</p>
+        <div class="spider">
         <p class="fontBlue">防疫課程 Day5(星期六放假)<br>
           防疫課程 Day6(星期日放假)<br>
         </p>
+        </div>
         <p> 防疫課程 Day7</p>
         <div class="meetTime">
           <div>5月 24日 (星期一)</div>
@@ -112,12 +40,16 @@ a{
             </tr>
             <tr>
               <td style="text-align: center;">11:00</td>
-              <td>課程結束 </td>
+              <td>上午課程結束 </td>
             </tr>
             <tr>
-              <td>下午</td>
+              <td>13:15</td>
               <td>請點我☞ <a class="fontWhite" href="https://meet.google.com/qzr-wsro-ima">自
                   然李老師線上直播</a> </td>
+            </tr>
+            <tr>
+              <td>14:45</td>
+              <td>自然線上課結束</td>
             </tr>
             <tr>
               <td>今日作業</td>
@@ -247,4 +179,5 @@ a{
       </center>
     </main>
   </body>
+<script src="arthur.js"></script>
 </html>
