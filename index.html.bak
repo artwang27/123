@@ -11,9 +11,9 @@
     <main>
       <center>
         <p id="title">401 防疫黑板</p>
-        <p> 防疫課程 Day7</p>
+        <p> 防疫課程 Day8</p>
         <div class="meetTime">
-          <div>5月 24日 (星期一)</div>
+          <div>5月 25日 (星期二)</div>
           <div style="color: red;">上午...下午</div>
         </div>
         <div class="meetNote">
@@ -38,12 +38,12 @@
             </tr>
             <tr>
               <td>13:15</td>
-              <td>請點我☞ <a class="fontWhite" href="https://meet.google.com/qzr-wsro-ima">自
-                  然李老師線上直播</a> </td>
+              <td>請點我☞ <a href="https://meet.google.com/grn-mrzh-yfa">
+                  社 會廖老師線上直播</a> </td>
             </tr>
             <tr>
               <td>14:45</td>
-              <td>自然線上課結束</td>
+              <td>社會線上課結束</td>
             </tr>
             <tr>
               <td>今日作業</td>
@@ -53,7 +53,7 @@
           </tbody>
         </table>
         <div class="linkNote">
-          <p> <a href="homework.png"> 今日作業聯絡簿</a> </p>
+          <p> <a href="homework.png"> 5/24 作業</a> </p>
         </div>
         <table>
           <tbody>
