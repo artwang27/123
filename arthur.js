@@ -1,3 +1,12 @@
+/*
+          <p><a href="homework2.png">社會作業說明<br>
+            </a></p>
+          <p><a href="https://drive.google.com/drive/folders/13hGtVPQoluVZIOJ6XlvBO3mKUl6oNIdk?usp=sharing">作
+              業繳交區</a></p>
+
+*/
+
+
 let spiderOn=true;
 
 const myBody = document.getElementById('myBody');
@@ -19,10 +28,10 @@ function showDay(){
     //今天是幾月幾日星期幾
     let today=document.getElementById("today");
     let t = new Date();
-    let month=t.getMonth()+1;
+    let m=t.getMonth()+1;
     let d=t.getDate();
     let w = Week(t);
-    today.innerHTML= month+ "/"+ d +" ("+ w +")";
+    today.innerHTML= m+ "/"+ d +" ("+ w +")";
 }
 
 
