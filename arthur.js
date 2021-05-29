@@ -19,6 +19,11 @@ function onMouseMove(){
     animate=false;
 }
 
+         
+function onmouseDown(){
+    alert("down");
+    animate = false;
+}
 
 //畫出全螢幕的綠屏
 function drawIt(){
@@ -75,9 +80,9 @@ function happyGo(){
     drawIt();
 
     myBody.addEventListener('mousemove', onMouseMove);
-    myBody.addEventListener("mousedown", onMouseMove);
+    //myBody.addEventListener("mousedown", onMouseDown);
 
-    setTimeout(setAfterTwoSecond, 2000); //兩秒後設定
+    setTimeout(setAfterTwoSecond, 5000); //兩秒後設定
 
     /*
     setSpider();
