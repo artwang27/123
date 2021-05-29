@@ -20,13 +20,15 @@ body {
   font-size: 40px;
 }
 
+#meetArea{
+  font-size: 20px;
+}
+
+
 .meetTime{
   font-size: 24px;
 }
       
-.meetNote{
-  font-size: 20px;
-}
 
 .linkNote a{
   font-size: 24px;

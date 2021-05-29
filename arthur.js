@@ -11,8 +11,8 @@ let spiderOn=true;
 
 const myBody = document.getElementById('myBody');
 
-//window.onload = init;
-window.onload = test;
+window.onload = init;
+//window.onload = test;
 
 function test(){
     showDay();
@@ -27,22 +27,41 @@ function showDay(){
 
     //今天是幾月幾日星期幾
     let today=document.getElementById("today");
-    let t = new Date();
-    let m=t.getMonth()+1;
-    let d=t.getDate();
-    let w = Week(t);
+    let td = new Date();
+    let m=td.getMonth()+1;
+    let d=td.getDate();
+    let w = Week(td);
     today.innerHTML= m+ "/"+ d +" ("+ w +")";
+
+    takeBreak(td);
+}
+
+
+//例假日，休息一下
+function takeBreak(day){
+    let w = day.getDay();
+    if( w===0 || w===6){
+        //alert("放假");
+
+        let dom = document.getElementById("meetArea");
+        //dom.style.display="none";
+        dom.innerHTML="今日放假~~~";
+    }
 }
 
 
 
 
 function init(){
+    showDay();
+
+    /*
     setSpider();
 
     setTimeout(setAfterTwoSecond,2000); //兩秒後設定
     setTimeout( clearSpider, 5000);
-}1
+    */
+}
 
 
 //兩秒後設定，此時才提供取消蜘蛛網的清除
