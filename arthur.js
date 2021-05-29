@@ -75,6 +75,7 @@ function happyGo(){
     drawIt();
 
     myBody.addEventListener('mousemove', onMouseMove);
+    myBody.addEventListener("mousedown", onMouseMove);
 
     setTimeout(setAfterTwoSecond, 2000); //兩秒後設定
 
