@@ -82,4 +82,15 @@ a{
   background-color: blue;
 }
 
+canvas {
+  border:1px solid black;
+  position:absolute; 
+  top:0px; 
+  left:0px; 
+  z-index:-1
+
+  /* width:800px; */
+  /* height:600px; */
+}
+
 

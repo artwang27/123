@@ -12,11 +12,37 @@ let spiderOn=true;
 const myBody = document.getElementById('myBody');
 
 window.onload = init;
-//window.onload = test;
 
-function test(){
+
+function init() {
     showDay();
+    drawIt();
+
+    setTimeout(setAfterTwoSecond, 2000); //兩秒後設定
+
+    /*
+    setSpider();
+
+    
+    setTimeout( clearSpider, 5000);
+    */
 }
+
+//畫出全螢幕的綠屏
+function drawIt(){
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    let w = screen.width;
+    let h = screen.height;
+    
+    ctx.canvas.width=w;
+    ctx.canvas.height = h;
+
+    //填綠色
+    ctx.fillStyle = "#00FF00";
+    ctx.fillRect(0, 0, w, h);
+}
+
 
 //秀出防疫第幾天
 //今天是幾月幾日星期幾
@@ -52,21 +78,13 @@ function takeBreak(day){
 
 
 
-function init(){
-    showDay();
-
-    /*
-    setSpider();
-
-    setTimeout(setAfterTwoSecond,2000); //兩秒後設定
-    setTimeout( clearSpider, 5000);
-    */
-}
 
 
 //兩秒後設定，此時才提供取消蜘蛛網的清除
 function setAfterTwoSecond(){
-    myBody.addEventListener('mousemove', clearSpider);
+    //myBody.addEventListener('mousemove', clearSpider);
+
+    window.location.href = 'matrixRain/index.html';
 }
 
 
