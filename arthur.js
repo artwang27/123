@@ -1,13 +1,8 @@
-/*
-          <p><a href="homework2.png">社會作業說明<br>
-            </a></p>
-          <p><a href="https://drive.google.com/drive/folders/13hGtVPQoluVZIOJ6XlvBO3mKUl6oNIdk?usp=sharing">作
-              業繳交區</a></p>
 
-*/
 
 
 let spiderOn=true;
+let animate=true;
 
 const myBody = document.getElementById('myBody');
 
@@ -16,17 +11,14 @@ window.onload = init;
 
 function init() {
     showDay();
-    drawIt();
 
-    setTimeout(setAfterTwoSecond, 2000); //兩秒後設定
-
-    /*
-    setSpider();
-
-    
-    setTimeout( clearSpider, 5000);
-    */
 }
+
+
+function onMouseMove(){
+    animate=false;
+}
+
 
 //畫出全螢幕的綠屏
 function drawIt(){
@@ -72,9 +64,26 @@ function takeBreak(day){
         let dom = document.getElementById("meetArea");
         //dom.style.display="none";
         dom.innerHTML="今日放假~~~";
+
+        happyGo();
     }
 }
 
+
+//假日才執行...
+function happyGo(){
+    drawIt();
+
+    myBody.addEventListener('mousemove', onMouseMove);
+
+    setTimeout(setAfterTwoSecond, 2000); //兩秒後設定
+
+    /*
+    setSpider();
+    setTimeout( clearSpider, 5000);
+    */
+
+}
 
 
 
@@ -84,7 +93,10 @@ function takeBreak(day){
 function setAfterTwoSecond(){
     //myBody.addEventListener('mousemove', clearSpider);
 
-    window.location.href = 'matrixRain/index.html';
+    if(animate){
+        window.location.href = 'matrixRain/index.html';
+    }
+    
 }
 
 

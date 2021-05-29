@@ -82,6 +82,12 @@ a{
   background-color: blue;
 }
 
+
+/* 不要顯示出來 */
+.dontShow{
+    display: none;
+}
+
 canvas {
   border:1px solid black;
   position:absolute; 
