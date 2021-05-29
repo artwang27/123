@@ -21,7 +21,7 @@ function onMouseMove(){
 
          
 function onmouseDown(){
-    alert("down");
+    //alert("down");
     animate = false;
 }
 
@@ -83,7 +83,7 @@ function happyGo(){
     //myBody.addEventListener("mousedown", onMouseDown);
     myBody.addEventListener("touchstart", onMouseMove);
 
-    setTimeout(setAfterTwoSecond, 5000); //兩秒後設定
+    setTimeout(setAfterTwoSecond, 4000); //兩秒後設定
 
     /*
     setSpider();
