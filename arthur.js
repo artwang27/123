@@ -82,7 +82,7 @@ function happyGo(){
     myBody.addEventListener('mousemove', onMouseMove);
     //myBody.addEventListener("mousedown", onMouseDown);
 
-    setTimeout(setAfterTwoSecond, 50); //兩秒後設定
+    setTimeout(setAfterTwoSecond, 5000); //兩秒後設定
 
     /*
     setSpider();
