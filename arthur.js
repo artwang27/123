@@ -81,6 +81,7 @@ function happyGo(){
 
     myBody.addEventListener('mousemove', onMouseMove);
     //myBody.addEventListener("mousedown", onMouseDown);
+    myBody.addEventListener("touchstart", onMouseMove);
 
     setTimeout(setAfterTwoSecond, 5000); //兩秒後設定
 
