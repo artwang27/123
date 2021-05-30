@@ -46,7 +46,7 @@ function showDay(){
     let w = Week(td);
     today.innerHTML= m+ "/"+ d +" ("+ w +")";
 
-    takeBreak(td);
+    //takeBreak(td);
 }
 
 
