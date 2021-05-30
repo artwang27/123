@@ -1,25 +1,24 @@
-var snakes=[];
-const CharSize=28; //字體大小
-
-
+let snakesAry=[];
 
 
 function setup() {
+    //與螢幕同寬高
     createCanvas(window.innerWidth, window.innerHeight);
-    //設定顏色
-    colorMode(HSB, width, 100,100);
-    textSize( CharSize );
-    background(0,150,150);
 
-    for(var x=0; x<width; x+=CharSize){
-        snake=new Snake(x);
-        snakes.push(snake);
+    //設定著色的模式
+    //colorMode(mode, max1, max2, max3, [maxA])，填入的參數是指最大可以是多少
+    colorMode(HSB, width, 100,100);
+
+    textSize( Char.CharSize );  //每個字的大小
+    background(0);
+
+    for(let x=0; x<width; x+= Char.CharSize){
+        let snake=new Snake(x);
+        snakesAry.push(snake);
     }
 
-
-
-
 }
+
 
 function draw() {
     if (mouseIsPressed) {
@@ -29,7 +28,7 @@ function draw() {
     }
     else{
         background(0);
-        snakes.forEach( function(snake){snake.update()} );
+        snakesAry.forEach( snake=> snake.update() );
     }
 
  }
@@ -40,69 +39,8 @@ function draw() {
  }
 
 
-function Char(x,y,speed){
-    this.x=x;
-    this.y=y;
-    this.value='';
-    this.isFirst=false; //是 snake 裡的第一個字嗎?
-    this.changeInterval=round(random(20,60));    //多久要產生新的 char code
 
 
-
-    this.setValue=function(){
-        //this.value=String.fromCharCode(0x0030+round( random(0,9) )); //數字字集
-        //this.value=String.fromCharCode(0x30A0+round( random(0,96) )); //日文字集
-       //this.value=String.fromCharCode(0x3400+round( random(0,6582) ));//中文字集
-        this.value=randomStudentChar();
-    };
-
-
-    this.render=function(){
-        if(this.isFirst)
-            //fill(180,255,180);
-            fill(0, 0, 100);
-        else
-            //fill(0,255,70);
-            //fill(this.x, (this.y*92/CharSize)%100, 100);
-            fill(this.x, (this.y*8.5)%100, 100);
-
-        text(this.value, this.x, this.y);
-    };
-
-    this.update=function( speed, endY ){
-        //要變文字囉
-        if (frameCount % this.changeInterval === 0){
-            this.setValue();
-        }
-        this.y = this.y>endY? 0: this.y + speed;
-        this.render();
-    };
-
-    this.setValue();
-}
-
-function Snake(x){
-    long=random(5,30);
-    this.chars=[];
-    this.speed=random(1,15);
-    this.endY=random(200,1500)+window.innerHeight;
-
-    y=0;
-    for(var i=0; i<long; i++){
-        this.chars[i] = new Char( x, y, this.speed);
-        y -= CharSize;
-    }
-
-    this.chars[0].isFirst=true;
-
-    this.update=function(){
-        for(var i=0; i< this.chars.length; i++){
-            this.chars[i].update( this.speed, this.endY );
-
-        }
-
-    }
-}
 
 /*
  if (mouseIsPressed) {

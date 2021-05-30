@@ -8,6 +8,10 @@ const myBody = document.getElementById('myBody');
 
 window.onload = init;
 
+function print(data){
+    console.log(data);
+}
+
 
 function init() {
     showDay();
@@ -25,20 +29,6 @@ function onmouseDown(){
     animate = false;
 }
 
-//畫出全螢幕的綠屏
-function drawIt(){
-    var c = document.getElementById("myCanvas");
-    var ctx = c.getContext("2d");
-    let w = screen.width;
-    let h = screen.height;
-    
-    ctx.canvas.width=w;
-    ctx.canvas.height = h;
-
-    //填綠色
-    ctx.fillStyle = "#00FF00";
-    ctx.fillRect(0, 0, w, h);
-}
 
 
 //秀出防疫第幾天
@@ -70,7 +60,13 @@ function takeBreak(day){
         //dom.style.display="none";
         dom.innerHTML="今日放假~~~";
 
-        happyGo();
+
+        h=day.getHours();
+        //下午4點前才顯示
+        if(h<16){
+            happyGo();
+        }
+            
     }
 }
 
@@ -92,6 +88,20 @@ function happyGo(){
 
 }
 
+//畫出全螢幕的綠屏
+function drawIt() {
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    let w = screen.width;
+    let h = screen.height;
+
+    ctx.canvas.width = w;
+    ctx.canvas.height = h;
+
+    //填綠色
+    ctx.fillStyle = "#00FF00";
+    ctx.fillRect(0, 0, w, h);
+}
 
 
 
