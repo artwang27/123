@@ -47,6 +47,7 @@ function showDay(){
     today.innerHTML= m+ "/"+ d +" ("+ w +")";
 
     //takeBreak(td);
+    //----
 }
 
 
