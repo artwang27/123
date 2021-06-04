@@ -1,17 +1,3 @@
-/*
-1國
-2數
-3社
-4自
-5英
-6音
-7健
-8美
-9台
-10電
-11體
-
-*/
 
 
 let spiderOn=true;
@@ -59,7 +45,7 @@ function showDay(){
     let w = Week(td);
     today.innerHTML= m+ "/"+ d +" ("+ w +")";
 
-    //takeBreak(td);
+    takeBreak(td);
     //----
 }
 
@@ -74,6 +60,7 @@ function takeBreak(day){
         //dom.style.display="none";
         dom.innerHTML="今日放假~~~";
 
+        return;
 
         h=day.getHours();
         //下午4點前才顯示

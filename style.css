@@ -14,7 +14,7 @@ body {
 }
 */
 
-#title {
+.title {
   background-color: #cc0000;
   color: white;
   font-size: 40px;
@@ -63,7 +63,7 @@ p {
 }
 
 table a{
-  color:white;
+  color:yellow;
 }
       
 .fontWhite{
