@@ -15,4 +15,9 @@
 */
 
 
-新學年簿本調查
+
+
+                <tr class="fontGray">
+                    <td rowspan="1" colspan="6">6/07 ~ 6/11 功課表<br>
+                </tr>
+

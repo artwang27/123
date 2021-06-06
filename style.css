@@ -43,16 +43,52 @@ table{
   border: 1px;
   font-size: 24px;
   text-align: center;
+  /* border-collapse: collapse;    無邊框 */
 }
+
+caption {
+    color:#2F5496;
+     font-size: larger;
+     margin: 1em auto;
+}
+
 
 tbody {
   color: white;
   background-color: #2F5496;
 }
-      
-.tableRow1{
-  width: 120px; 
+
+tbody tr:nth-child(odd) {
+ 
+     background: #104080;
+ 
 }
+
+/* 圓形邊框 */
+th:first-child {
+ 
+     border-radius: 12px 0 0 0;
+ 
+}
+ 
+th:last-child {
+ 
+     border-radius: 0 12px 0 0;
+ 
+}
+ 
+tr:last-child td:first-child {
+ 
+     border-radius: 0 0 0 12px;
+ 
+}
+ 
+tr:last-child td:last-child {
+ 
+     border-radius: 0 0 12px 0;
+ 
+}
+
 
 /*----------------table end ----------------*/
 
