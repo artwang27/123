@@ -14,6 +14,7 @@ function print(data){
 
 function init() {
     showDay();
+    showCountDown();    //倒數幾天
 
 }
 
@@ -28,6 +29,22 @@ function onmouseDown(){
     animate = false;
 }
 
+//離結業式倒數幾天
+function showCountDown(){
+    let countDown = document.getElementById("countDown");
+
+    let leftDay = DateDiff("2021/7/2", new Date());
+    //countDown.innerHTML = "離結業式倒數 " + leftDay;
+    let leaf = "<img src='countDown/leaf02.png' style='width:64px ; height:64px' >";
+
+    //make leafs
+    allLeafs="";
+    for(let i=0; i<leftDay; i++)
+        allLeafs += leaf;
+
+    countDown.innerHTML = allLeafs;
+
+}    
 
 
 //秀出防疫第幾天
