@@ -42,7 +42,7 @@ function showCountDown(){
     for(let i=0; i<leftDay; i++)
         allLeafs += leaf;
 
-    countDown.innerHTML = allLeafs;
+    countDown.innerHTML = allLeafs; //秀出剩幾片常春藤
 
 }    
 
