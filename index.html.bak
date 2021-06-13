@@ -43,15 +43,15 @@
             <tbody>
               <tr>
                 <td>10:00</td>
-                <td>掛菖蒲</td>
+                <td>導師</td>
                 <td><a href="https://meet.google.com/qzr-wsro-ima">自然</a></td>
                 <td>導師</td>
                 <td>導師</td>
-                <td><a href="#">數複習考</a></td>
+                <td>導師</td>
               </tr>
               <tr>
                 <td>11:00</td>
-                <td>插艾草</td>
+                <td>-</td>
                 <td>導師</td>
                 <td>-</td>
                 <td><br>
@@ -61,7 +61,7 @@
               <tr>
                 <td>12:00<br>
                   -</td>
-                <td>午時水</td>
+                <td>-</td>
                 <td>-</td>
                 <td>-</td>
                 <td>-</td>
@@ -69,57 +69,57 @@
               </tr>
               <tr>
                 <td>下午</td>
-                <td>立雞蛋<br>
+                <td><br>
                 </td>
                 <td><a href="https://meet.google.com/grn-mrzh-yfa">社會</a></td>
                 <td><br>
                 </td>
-                <td>導師 </td>
+                <td><br>
+                </td>
                 <td><br>
                 </td>
               </tr>
               <tr>
                 <td><br>
                 </td>
-                <td>吃肉粽<br>
+                <td><br>
                 </td>
                 <td>1:20<br>
                   上課</td>
                 <td><br>
                 </td>
-                <td>1:20<br>
-                  上課 </td>
+                <td><br>
+                </td>
                 <td><br>
                 </td>
               </tr>
               <tr>
                 <td><br>
                 </td>
-                <td><a href="subject/exams.txt">屈原說</a>
-                </td>
-                <td>2:30<br>
-                  下課 </td>
                 <td><br>
                 </td>
                 <td>2:30<br>
                   下課 </td>
                 <td><br>
                 </td>
+                <td><br>
+                </td>
+                <td><a href="https://meet.google.com/qgm-xcvk-fwr">電腦</a> </td>
               </tr>
             </tbody>
           </table>
         </section>
+
         <section>
-          
+          <p><a href="hw0611.png">6/11作業</a></p>
           <p><a href="https://drive.google.com/drive/folders/13hGtVPQoluVZIOJ6XlvBO3mKUl6oNIdk?usp=sharing">社
               會作 業繳交區</a></p>
           <p><a href="https://www.blooket.com/play?hwId=60c05aac088cd3001d6f40cd">社
               會--小測驗(攀登厄運之塔)</a></p>
-          <a href="https://www.blooket.com/play?hwId=60c05aac088cd3001d6f40cd"><img
+          <a href="https://www.blooket.com/play?hwId=60c05aac088cd3001d6f40cd"><img src="doom.png" style="width:80% ; height:80%" alt="攀登厄運之塔"></a> 
+        </section>
 
-              src="doom.png" style="width:60% ; height:60%" alt="攀登厄運之塔"></a> </section>
         <section class="dontShow">
-            <p><a href="hw0611.png">6/11作業</a></p>
           <p><a href="homework12.jpg">社會作業說明</a></p>
           <p><a href="https://www.blooket.com/play?hwId=60c05aac088cd3001d6f40cd">社
               會--小測驗(攀登厄運之塔)</a></p>
@@ -128,10 +128,9 @@
         <br>
         <section>
           <p class="title">各科老師交代</p>
-        <div><a href="subject/06.txt">音樂科---6/14 更新</a></div>
           <div><a href="https://drive.google.com/drive/folders/1xZ5P-aTrcIOu_FOl6V541W3du4xvsQ2B?usp=sharing">自
               然科---6/11 作業區(含繳交情形)</a></div>
-          
+          <div><a href="subject/06.txt">音樂科---6/11 缺交名單及新的功課</a></div>
           <div><a href="#"><br>
             </a></div>
           <div><a href="subject/10.txt">電腦科---6/8 更新</a></div>
