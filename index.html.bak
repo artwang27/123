@@ -95,8 +95,7 @@
               <tr>
                 <td><br>
                 </td>
-                <td><a href="subject/exams.txt">屈原說</a>
-                </td>
+                <td><a href="subject/exams.txt">屈原說</a> </td>
                 <td>2:30<br>
                   下課 </td>
                 <td><br>
@@ -109,34 +108,75 @@
             </tbody>
           </table>
         </section>
-        <section>
-            <p><a href="hw0615.png">6/15作業</a></p>
-            <p><a href="subject/exams.txt">期末考說明書</a></p>
-            <p><a href="subject/computerLesson.pdf">電腦作業說明</a></p>
-            <p><a href="https://drive.google.com/drive/folders/13hGtVPQoluVZIOJ6XlvBO3mKUl6oNIdk?usp=sharing">
-                    防疫作業繳交區</a></p>
-        </section>
-        
-        <section class="dontShow">
-            
-          
-        <p><a href="https://www.blooket.com/play?hwId=60c05aac088cd3001d6f40cd">社
-                會--小測驗(攀登厄運之塔)</a></p>
-        <a href="https://www.blooket.com/play?hwId=60c05aac088cd3001d6f40cd"><img src="doom.png" style="width:60% ; height:60%"
-                alt="攀登厄運之塔"></a>
 
+        <section>
+          <p><a href="https://drive.google.com/drive/folders/13hGtVPQoluVZIOJ6XlvBO3mKUl6oNIdk?usp=sharing">
+            <img src="images/areaHW.png" style="width:40%;"></a></p>
+          <p><a href="hw0615_2.png">6/15作業</a></p>
+          <p><a href="subject/exams.txt">期末考說明書</a></p>
+          <p><a href="subject/computerLesson.pdf">電腦作業說明</a></p>
         </section>
+
+        <br><br><br>
+
+        <section id="社會">
+          <table style="width: 60%" border="1">
+            <caption>社會期末複習遊戲</caption>
+            <tbody>
+              <tr>
+                <td>社複習A</td>
+                <td>社複習B</td>
+              </tr>
+              <tr>
+                <td><a href="https://www.blooket.com/play?hwId=60c823dc91f5360022d681d7"><img src="game/game03.png"
+                        style="width:100% " alt="社複習A"></a>
+                </td>
+                <td><a href="https://www.blooket.com/play?hwId=60c824e11f207c0022b6b2bc"><img src="game/game04.png" style="width:100% ; "
+                        alt="社複習B"></a><br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="自然">
+            <table style="width: 60%" border="1">
+                <caption>自然遊戲</caption>
+                <tbody>
+                    <tr>
+                        <td>紙上昆蟲</td>
+                        <td>直流電虛擬實驗室B</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://creativepark.canon/en/categories/CAT-ST01-0094/index.html"><img src="images/createPark.png"
+                                    style="width:100% " alt="紙上昆蟲"></a>
+                        </td>
+                        <td><a href="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_zh_TW.html">
+                            <img src="images/circuit2.png"
+                                    style="width:100% ; " alt="直流電虛擬實驗室"></a><br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section class="dontShow">
+          <p><a href="https://www.blooket.com/play?hwId=60c05aac088cd3001d6f40cd">社
+              會--小測驗(攀登厄運之塔)</a></p>
+          <a href="https://www.blooket.com/play?hwId=60c05aac088cd3001d6f40cd"><img
+
+              src="doom.png" style="width:60% ; height:60%" alt="攀登厄運之塔"></a> </section>
         <br>
         <br>
         <section>
           <p class="title">各科老師交代</p>
-        <div><a href="subject/10.txt">電腦科---6/15 更新</a></div>
-        <div><a href="subject/06.txt">音樂科---6/14 更新</a></div>
-          
-          <div><a href="#"><br></a></div>
-        <div><a href="https://drive.google.com/drive/folders/1xZ5P-aTrcIOu_FOl6V541W3du4xvsQ2B?usp=sharing">自
-                然科---作業區(含繳交情形)</a></div>
-          
+          <div><a href="subject/10.txt">電腦科---6/15 更新</a></div>
+          <div><a href="subject/06.txt">音樂科---6/14 更新</a></div>
+          <div><a href="#"><br>
+            </a></div>
+          <div><a href="https://drive.google.com/drive/folders/1xZ5P-aTrcIOu_FOl6V541W3du4xvsQ2B?usp=sharing">自
+              然科---作業區(含繳交情形)</a></div>
           <div><a href="subject/11.txt">體育科---6/7 新增n例(含校正回歸)</a></div>
           <div><a href="subject/08.txt">美勞科---6/7 新增三例</a></div>
           <div><a href="subject/05.txt">英文科---6/4 新增2例</a></div>
