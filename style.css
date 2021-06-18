@@ -124,6 +124,11 @@ table a{
     display: none;
 }
 
+.important{
+    color: yellow;
+}
+
+
 canvas {
   border:1px solid black;
   position:absolute; 
@@ -134,5 +139,4 @@ canvas {
   /* width:800px; */
   /* height:600px; */
 }
-
 
