@@ -17,18 +17,6 @@
 
 
 
-                <tr class="fontGray">
-                    <td rowspan="1" colspan="6">6/07 ~ 6/11 功課表<br>
-                </tr>
-
-crazy kingdom 期末複習A
-https://www.blooket.com/play?hwId=60c823dc91f5360022d681d7
-
-tower of doom 期末複習B
-https://www.blooket.com/play?hwId=60c824e11f207c0022b6b2bc
-
-英複習卷補交
-https://docs.google.com/forms/d/e/1FAIpQLSdemNozOaZ12sAgRyBpZTanjvj2Eydzgy4UvAbFdz5GWpPIQA/viewform
 
 401 自然課
 
@@ -36,3 +24,6 @@ https://docs.google.com/forms/d/e/1FAIpQLSdemNozOaZ12sAgRyBpZTanjvj2Eydzgy4UvAbF
 
 如何加入 Google Meet 會議
 視訊通話連結：https://meet.google.com/qzr-wsro-ima
+
+考完試之後：
+加入美勞自主學習
