@@ -33,7 +33,8 @@ function onmouseDown(){
 function showCountDown(){
     let countDown = document.getElementById("countDown");
 
-    let leftDay = DateDiff("2021/7/2", new Date());
+    let leftDay = DateDiff("2021/7/2", new Date())+1;
+    console.log(leftDay+"days");
     //countDown.innerHTML = "離結業式倒數 " + leftDay;
     let leaf = "<img src='countDown/leaf02.png' style='width:64px ; height:64px' >";
 
