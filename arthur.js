@@ -1,7 +1,8 @@
 
 
 let spiderOn=true;
-let animate=true;
+let animate=false;
+let animStop=false; //動畫結束
 
 const myBody = document.getElementById('myBody');
 
@@ -14,21 +15,26 @@ function print(data){
 
 function init() {
     showDay();
-    showCountDown();    //倒數幾天
+    let leftDay=showCountDown();    //倒數幾天
+    
+    //takeBreak2(leftDay);
 
     //drawIt2();
 
 }
 
+function stopAnimation(){
+    if (animate)
+        animStop = true;
+}
 
 function onMouseMove(){
-    animate=false;
+    stopAnimation();
 }
 
          
 function onmouseDown(){
-    //alert("down");
-    animate = false;
+    stopAnimation();
 }
 
 //離結業式倒數幾天
@@ -46,6 +52,7 @@ function showCountDown(){
         allLeafs += leaf;
 
     countDown.innerHTML = allLeafs; //秀出剩幾片常春藤
+    return leftDay;
 
 }    
 
@@ -67,6 +74,29 @@ function showDay(){
 
     takeBreak(td);
     //----
+}
+
+
+//剩幾天，做什麼事
+function takeBreak2(leftDay) {
+    happyGo();
+    let w = day.getDay();
+    if (w === 0 || w === 6) {
+        //alert("放假");
+
+        let dom = document.getElementById("meetArea");
+        //dom.style.display="none";
+        dom.innerHTML = "今日放假~~~";
+
+
+
+        h = day.getHours();
+        //下午4點前才顯示
+        if (h < 16) {
+            happyGo();
+        }
+
+    }
 }
 
 
@@ -100,7 +130,7 @@ function happyGo(){
     //myBody.addEventListener("mousedown", onMouseDown);
     myBody.addEventListener("touchstart", onMouseMove);
 
-    setTimeout(setAfterTwoSecond, 4000); //兩秒後設定
+    setTimeout(startAnimation, 10*1000); //n秒後設定
 
     /*
     setSpider();
@@ -143,8 +173,12 @@ function drawIt2(){
 
 
 //兩秒後設定，此時才提供取消蜘蛛網的清除
-function setAfterTwoSecond(){
+function startAnimation(){
+    return;
     //myBody.addEventListener('mousemove', clearSpider);
+
+    animate=true;
+    animStop=false;
 
     if(animate){
         window.location.href = 'matrixRain/index.html';
