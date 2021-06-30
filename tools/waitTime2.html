@@ -1,0 +1,47 @@
+
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>javascript實現系統螢幕保護效果(鎖定網頁)</title>
+</head>
+
+<body>
+    <div id="dvContent">內容<br />內容<br />內容<br />內容<br />內容<br />內容</div>
+    <div id="dvPassword" style="display:none">輸入密碼：<input type="password" id="txtPwd" /><input type="button" value="確定"
+            onclick="check()" /></div>
+    <script>
+        if (document.cookie.indexOf('lock=1') != -1) ShowContent(false);
+        var delay = 5 * 1000, timer;//10s後鎖定，修改delay為你需要的時間，單位毫秒
+        function resetWaitTimer() {
+            clearTimeout(timer);
+            timer = setTimeout(TimerHandler, delay);
+        }
+        function TimerHandler() {
+            document.cookie = 'lock=1';
+            document.onmousemove = null;//鎖定後移除滑鼠移動事件
+            ShowContent(false);
+        }
+        function ShowContent(show) {
+            document.getElementById('dvContent').style.display = show ? 'block' : 'none';
+            document.getElementById('dvPassword').style.display = show ? 'none' : 'block';
+        }
+        function check() {
+            if (document.getElementById('txtPwd').value == '123') {
+                document.cookie = 'lock=0';
+                ShowContent(true);
+                resetWaitTimer()//重新計時
+                document.onmousemove = resetWaitTimer; //重新繫結滑鼠移動事件
+            }
+            else alert('密碼不正確！！');
+        }
+        window.onload = function () {
+            document.onmousemove = resetWaitTimer;
+            resetWaitTimer();
+        }
+    </script>
+</body>
+
+</html>

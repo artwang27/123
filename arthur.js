@@ -20,6 +20,7 @@ function init() {
     //takeBreak2(leftDay);
 
     //drawIt2();
+    //window.location.href = 'getVar.html?id=123&user=Arthur';
 
 }
 
