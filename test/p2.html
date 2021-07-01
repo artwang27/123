@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arthur Wang">
+    <title>台北市麗山國小401防疫黑板</title>
+</head>
+<script type="text/javascript" src="../tools/getUrlParam.js"></script>
+<script src="../js/IdleAction.js"></script>
+<script>
+    let v;
+    v = UrlParam.paramValues("a");
+    console.log(v);
+    v = UrlParam.paramValues("值日生");
+    console.log(v);
+
+    let t=0;
+    let tIdle=new IdleAction(fun,5000);
+    tIdle.setEnable(false);
+
+    function fun(){
+        console.log("AAAAAA");
+        t++;
+    }
+
+</script>
+
+<body>
+    This is p2
+</body>

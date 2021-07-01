@@ -7,3 +7,10 @@ function randomStudentChar(){
     return  studentNames[idx];
 }
 
+
+//指派一位學生當值日生
+function getWatchMan(){
+    let num=Math.floor(Math.random()*28 );
+
+    return studentNames.substr(num*3, 3);
+}

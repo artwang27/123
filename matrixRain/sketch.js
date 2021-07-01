@@ -35,7 +35,9 @@ function draw() {
 
 
  function onMousePress(){
-     window.history.back(1);
+     let name=getWatchMan();    //找一個小孩當值日生
+     //window.history.back(1);
+     window.location.href = "../index.html?值日生="+name;
  }
 
 
