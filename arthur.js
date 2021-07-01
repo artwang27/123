@@ -78,7 +78,7 @@ function showCountDownBySecond() {
     var Seconds_Between_Dates = Math.abs(Seconds_from_T1_to_T2);
     */
 
-    let endTime=new Date(2021,6,3,0,0)
+    let endTime=new Date(2021,6,3,0,0);
     let cur=new Date();
     let diff= (endTime.getTime() - cur.getTime())/1000;
 
