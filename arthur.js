@@ -80,7 +80,8 @@ function showCountDownBySecond() {
 
     let endTime=new Date(2021,6,3,0,0);
     let cur=new Date();
-    let diff= (endTime.getTime() - cur.getTime())/1000;
+    let diff= (endTime.getTime() - cur.getTime())/1000/60;
+    diff=diff.toFixed(3);
 
 
 
@@ -90,7 +91,7 @@ function showCountDownBySecond() {
 
 
 
-    countDown.innerHTML = diff; //秀出剩幾秒
+    countDown.innerHTML = "剩下 "+diff+" 分鐘"; //秀出剩幾秒
 
 }
 
