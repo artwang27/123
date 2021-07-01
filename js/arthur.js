@@ -33,7 +33,7 @@ function init() {
 //時鐘的 60 分鐘折抵 delay 1秒鐘
 function getGameOverDelay(diff){
     let delay= diff/ 60;    
-    alert("當您靜止 "+delay+" 秒後，自動進入螢幕保護程式");
+    alert("當您靜止 "+delay+" 秒後，將會自動進入螢幕保護程式");
     if(delay<0)
         delay=5;
     return delay;
@@ -84,10 +84,17 @@ function showCountDownByDay(){
 
 //離結業式倒數幾秒，用碼表來表示
 function showCountDownByMin() {
-    let countDown = document.getElementById("countDownSecond");
+    let countDown = document.getElementById("countDownMin");
     let diff=getCountdownByMin();
-    console.log(diff);
-    countDown.innerHTML = "剩下 "+diff+" 分鐘"; //秀出剩幾秒
+    print(diff);
+
+    if(diff>=0){
+        countDown.innerHTML = "剩下 " + diff + " 分鐘"; //秀出剩幾分鐘
+    }
+    else{
+        countDown.innerHTML ="時辰已到！";
+    }
+    
 }
 
 
