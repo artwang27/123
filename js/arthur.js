@@ -33,7 +33,7 @@ function init() {
 //時鐘的 60 分鐘折抵 delay 1秒鐘
 function getGameOverDelay(diff){
     let delay= diff/ 60;    
-    alert("當您靜止 "+delay+" 秒後，將會自動進入螢幕保護程式");
+    //alert("當您靜止 "+delay+" 秒後，將會自動進入螢幕保護程式");
     if(delay<0)
         delay=5;
     return delay;
